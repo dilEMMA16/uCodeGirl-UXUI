@@ -1,0 +1,264 @@
+/* This affects the big full page image on the home page */
+.masthead {
+  height: 100vh;
+  min-height: 500px;
+  /* You can link to an image hosted online */
+  /* background-image: url('https://source.unsplash.com/BtbjCFUvBXs/1920x1080'); */
+  background-image: url('img/testback4.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+p {
+  color: #737373 !important;
+}
+h1 {
+  color: #f8d9e4;
+  font-family: 'Playfair Display', serif;
+}
+h2 {
+  color:#737373;
+  font-family: 'Montserrat', serif;
+  text-align: center;
+}
+h4, h3 {
+  color: #fac172;
+  font-weight: bold;
+  font-size: 1.25em;
+}
+h5, h6 {
+  color: #737373;
+}
+
+section {
+  min-height: 100vh;
+  margin-top:20%;
+}
+
+#brandname {
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 32px;
+  color: #fac172;
+}
+
+/* This is the id for the attention getter on the home page */
+#mainHeader {
+  font-size: 4em !important;
+  font-weight: 700!important;
+}
+
+/* This is used to style the short text under the attention getter on the home page */
+#mainBlurb {
+  color: #dae4e3 !important;
+}
+
+/* This is the small line of pink at the top of each page */
+#topcolor {
+  height: 1vh;
+  background-color:#fac172;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+
+
+/* This edits the footer */
+footer {
+  background-color: #01b1aa;
+  color: #116461;
+  padding: 15px;
+}
+footer p, footer h5 {
+  color: #116461 !important;
+}
+
+/* This edits icons */
+.fa, .far {
+  padding: 20px;
+  font-size: 30px;
+  width: 70px;
+  border-radius: 6px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+/* This creates social icons with the corresponding brand color */
+/* .fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+} */
+
+
+/* This edits social icons */
+.social {
+  background: #297f7cf0;
+  color: #01b1aa;
+}
+.social:hover {
+  opacity: 0.75;
+  color: white !important;
+  text-decoration: none !important;
+}
+#socialicons {
+  text-align: right;
+}
+.social2 {
+  margin: 10px;
+  color: #297f7cf0 !important;
+}
+.social2:hover {
+  opacity: 0.75;
+  color: white !important;
+  text-decoration: none !important;
+}
+
+
+
+/* This edits parts of the masonry photo/quotation gallery */
+.card-columns {
+  @include media-breakpoint-only(lg) {
+    column-count: 4;
+  }
+  @include media-breakpoint-only(xl) {
+    column-count: 5;
+  }
+}
+.card-block {
+  padding: 15px;
+}
+.coral {
+  background-color: #ff8357;
+  font-size: 24px;
+}
+.yellow {
+  background-color: #fac172;
+  font-size: 24px;
+}
+.green {
+  background-color: #adc865;
+  font-size: 24px;
+}
+.red {
+  background-color: #e25b45;
+  font-size: 24px;
+}
+.blue {
+  background-color: #01b1aa;
+  font-size: 24px;
+}
+
+.coral p, .yellow p,.green p,.red p,.blue p {
+  color: white !important;
+}
+
+
+/* This is for styling the fixed button that makes you go to the top of the page */
+#totop {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 20px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: #712984; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 10px; /* Some padding */
+  border-radius: 40px; /* Rounded corners */
+  font-size: 12px; /* Increase font size */
+}
+#totop:hover {
+  background-color: #87c8c6; /* Add a dark-grey background on hover */
+}
+
+
+
+/* This is for the quotation cards */
+.quote-card {
+  background: #fff;
+  color: #222222;
+  padding: 20px;
+  padding-left: 50px;
+  box-sizing: border-box;
+  box-shadow: 0 2px 4px rgba(34, 34, 34, 0.12);
+  position: relative;
+  overflow: hidden;
+  min-height: 120px;
+}
+.quote-card p {
+  font-size: 22px;
+  line-height: 1.5;
+  margin: 0;
+  max-width: 80%;
+}
+.quote-card cite {
+  font-size: 16px;
+  margin-top: 10px;
+  display: block;
+  font-weight: 200;
+  opacity: 0.8;
+}
+.quote-card:before {
+  font-family: Georgia, serif;
+  content: "“";
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 5em;
+  color: rgba(238, 238, 238, 0.8);
+  font-weight: normal;
+}
+.quote-card:after {
+  font-family: Georgia, serif;
+  content: "”";
+  position: absolute;
+  bottom: -110px;
+  line-height: 100px;
+  right: -32px;
+  font-size: 25em;
+  color: rgba(238, 238, 238, 0.8);
+  font-weight: normal;
+}
+
+.quote-card.blue-card{
+  background: #01b1aa;
+  box-shadow: 0 1px 2px rgba(34, 34, 34, 0.12), 0 2px 4px rgba(34, 34, 34, 0.24);
+}
+ .quote-card.blue-card p,.quote-card.blue-card cite {
+   color: #ffffff !important;
+ }
+.quote-card.blue-card:before, .quote-card.blue-card:after {
+  color: #059993;
+}
