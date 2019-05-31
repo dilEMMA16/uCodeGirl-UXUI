@@ -4,22 +4,7 @@ p.resourcesdiv a {
   font-weight: bold;
 }
 
-#socialdiv {
-  padding: 50px;
-  text-align: center;
-}
-#socialdiv a {
-  margin:15px;
-  font-weight: normal;
-}
-#socialdiv a :hover{
-  filter:brightness(.9);
-  text-decoration: none !important;
-}
 
-a.nounder :hover {
-  text-decoration: none !important;
-}
 
 body {
   font-family: 'Montserrat', sans-serif;
@@ -56,16 +41,6 @@ section {
   color: #fac172;
 }
 
-/* This is the id for the attention getter on the home page */
-#mainHeader {
-  font-size: 4em !important;
-  font-weight: 700!important;
-}
-
-/* This is used to style the short text under the attention getter on the home page */
-#mainBlurb {
-  color: #dae4e3 !important;
-}
 
 /* This is the small line of pink at the top of each page */
 #topcolor {
@@ -85,63 +60,6 @@ footer {
 }
 footer p, footer h5 {
   color: #116461 !important;
-}
-
-
-
-/* This creates social icons with the corresponding brand color */
-/* .fa-facebook {
-  background: #3B5998;
-  color: white;
-}
-.fa-twitter {
-  background: #55ACEE;
-  color: white;
-}
-.fa-google {
-  background: #dd4b39;
-  color: white;
-}
-.fa-linkedin {
-  background: #007bb5;
-  color: white;
-}
-.fa-youtube {
-  background: #bb0000;
-  color: white;
-}
-.fa-instagram {
-  background: #125688;
-  color: white;
-}
-.fa-snapchat-ghost {
-  background: #fffc00;
-  color: white;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-} */
-
-
-/* This edits social icons */
-.social {
-  background: #297f7cf0;
-  color: #01b1aa;
-}
-.social:hover {
-  opacity: 0.75;
-  color: white !important;
-  text-decoration: none !important;
-}
-#socialicons {
-  text-align: right;
-}
-.social2 {
-  margin: 10px;
-  color: #297f7cf0 !important;
-}
-.social2:hover {
-  opacity: 0.75;
-  color: white !important;
-  text-decoration: none !important;
 }
 
 
