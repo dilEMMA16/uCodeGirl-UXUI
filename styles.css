@@ -156,3 +156,50 @@ footer p, footer h5 {
 .quote-card.blue-card:before, .quote-card.blue-card:after {
   color: #059993;
 }
+
+
+
+#scrollIcon {
+position: relative;
+-webkit-animation-name: dance; /* Safari 4.0 - 8.0 */
+-webkit-animation-duration: 3s; /* Safari 4.0 - 8.0 */
+-webkit-animation-delay: 0s; /* Safari 4.0 - 8.0 */
+animation-name: dance;
+animation-duration: 3s;
+animation-delay: 0s;
+animation-iteration-count: infinite;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes dance {
+
+0%  {   -ms-transform: rotate(-7deg); /* IE 9 */
+-webkit-transform: rotate(-7deg); /* Safari 3-8 */
+ transform: rotate(-7deg);}
+33%  {  -ms-transform: rotate(7deg); /* IE 9 */
+ -webkit-transform: rotate(7deg); /* Safari 3-8 */
+ transform: rotate(7deg);}
+66%  {  -ms-transform: rotate(7deg); /* IE 9 */
+ -webkit-transform: rotate(7deg); /* Safari 3-8 */
+ transform: rotate(7deg);}
+100% {  -ms-transform: rotate(-7deg); /* IE 9 */
+ -webkit-transform: rotate(-7deg); /* Safari 3-8 */
+ transform: rotate(-7deg);}}
+}
+
+/* Standard syntax */
+@keyframes dance {
+
+0%  {   -ms-transform: rotate(-7deg); /* IE 9 */
+ -webkit-transform: rotate(-7deg); /* Safari 3-8 */
+ transform: rotate(-7deg);}
+33%  {  -ms-transform: rotate(7deg); /* IE 9 */
+ -webkit-transform: rotate(7deg); /* Safari 3-8 */
+ transform: rotate(7deg);}
+66%  {  -ms-transform: rotate(7deg); /* IE 9 */
+ -webkit-transform: rotate(7deg); /* Safari 3-8 */
+ transform: rotate(7deg);}
+100% {  -ms-transform: rotate(-7deg); /* IE 9 */
+ -webkit-transform: rotate(-7deg); /* Safari 3-8 */
+ transform: rotate(-7deg);}}
+}
